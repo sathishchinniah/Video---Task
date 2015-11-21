@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8065B3A1C00584F008A14DB /* move.png in Resources */ = {isa = PBXBuildFile; fileRef = B8065B391C00584F008A14DB /* move.png */; settings = {ASSET_TAGS = (); }; };
 		B8FA5C801BFEF956001B3E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA5C7F1BFEF956001B3E43 /* AppDelegate.swift */; };
 		B8FA5C821BFEF956001B3E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA5C811BFEF956001B3E43 /* ViewController.swift */; };
 		B8FA5C851BFEF956001B3E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5C831BFEF956001B3E43 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		B8FA5C8A1BFEF956001B3E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5C881BFEF956001B3E43 /* LaunchScreen.storyboard */; };
 		B8FA5C951BFEF956001B3E43 /* Video_Task_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA5C941BFEF956001B3E43 /* Video_Task_2Tests.swift */; };
 		B8FA5CA01BFEF956001B3E43 /* Video_Task_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA5C9F1BFEF956001B3E43 /* Video_Task_2UITests.swift */; };
+		B8FA5CB81C003F90001B3E43 /* but.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5CB71C003F90001B3E43 /* but.png */; settings = {ASSET_TAGS = (); }; };
+		B8FA5CBA1C004265001B3E43 /* musi.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5CB91C004265001B3E43 /* musi.png */; settings = {ASSET_TAGS = (); }; };
+		B8FA5CBC1C004424001B3E43 /* newbut.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5CBB1C004424001B3E43 /* newbut.png */; settings = {ASSET_TAGS = (); }; };
+		B8FA5CC01C0051ED001B3E43 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FA5CBF1C0051ED001B3E43 /* 12.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8065B391C00584F008A14DB /* move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move.png; sourceTree = "<group>"; };
 		B8FA5C7C1BFEF956001B3E43 /* Video Task 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Task 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FA5C7F1BFEF956001B3E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FA5C811BFEF956001B3E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		B8FA5C9B1BFEF956001B3E43 /* Video Task 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video Task 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FA5C9F1BFEF956001B3E43 /* Video_Task_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_Task_2UITests.swift; sourceTree = "<group>"; };
 		B8FA5CA11BFEF956001B3E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FA5CB71C003F90001B3E43 /* but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but.png; sourceTree = "<group>"; };
+		B8FA5CB91C004265001B3E43 /* musi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musi.png; sourceTree = "<group>"; };
+		B8FA5CBB1C004424001B3E43 /* newbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbut.png; sourceTree = "<group>"; };
+		B8FA5CBF1C0051ED001B3E43 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,12 @@
 				B8FA5C7F1BFEF956001B3E43 /* AppDelegate.swift */,
 				B8FA5C811BFEF956001B3E43 /* ViewController.swift */,
 				B8FA5C831BFEF956001B3E43 /* Main.storyboard */,
+				B8FA5CBB1C004424001B3E43 /* newbut.png */,
 				B8FA5C861BFEF956001B3E43 /* Assets.xcassets */,
+				B8FA5CB71C003F90001B3E43 /* but.png */,
+				B8FA5CB91C004265001B3E43 /* musi.png */,
+				B8FA5CBF1C0051ED001B3E43 /* 12.png */,
+				B8065B391C00584F008A14DB /* move.png */,
 				B8FA5C881BFEF956001B3E43 /* LaunchScreen.storyboard */,
 				B8FA5C8B1BFEF956001B3E43 /* Info.plist */,
 			);
@@ -229,6 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8FA5C8A1BFEF956001B3E43 /* LaunchScreen.storyboard in Resources */,
+				B8FA5CBA1C004265001B3E43 /* musi.png in Resources */,
+				B8065B3A1C00584F008A14DB /* move.png in Resources */,
+				B8FA5CC01C0051ED001B3E43 /* 12.png in Resources */,
+				B8FA5CBC1C004424001B3E43 /* newbut.png in Resources */,
+				B8FA5CB81C003F90001B3E43 /* but.png in Resources */,
 				B8FA5C871BFEF956001B3E43 /* Assets.xcassets in Resources */,
 				B8FA5C851BFEF956001B3E43 /* Main.storyboard in Resources */,
 			);
@@ -397,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Video Task 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sathish-chinniah.Video-Task-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Video Task 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sathish-chinniah.Video-Task-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +503,7 @@
 				B8FA5CA61BFEF956001B3E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8FA5CA71BFEF956001B3E43 /* Build configuration list for PBXNativeTarget "Video Task 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +512,7 @@
 				B8FA5CA91BFEF956001B3E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8FA5CAA1BFEF956001B3E43 /* Build configuration list for PBXNativeTarget "Video Task 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +521,7 @@
 				B8FA5CAC1BFEF956001B3E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

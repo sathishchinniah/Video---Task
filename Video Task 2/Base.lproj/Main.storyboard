@@ -1,25 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Video_Task_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHJ-PN-Q6f">
+                                <rect key="frame" x="248" y="22" width="37" height="37"/>
+                                <state key="normal" image="newbut.png"/>
+                                <connections>
+                                    <action selector="FirstVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9rL-3z-94d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWS-2s-LXg">
+                                <rect key="frame" x="248" y="169" width="37" height="37"/>
+                                <state key="normal" image="newbut.png"/>
+                                <connections>
+                                    <action selector="SecondVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ig-YL-Dmv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga5-j0-3NU">
+                                <rect key="frame" x="36" y="387" width="242" height="30"/>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.53725490200000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Merge All">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="MergeAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGe-Le-1dx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzG-Vi-xW7">
+                                <rect key="frame" x="8" y="28" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60e-bn-2dN">
+                                <rect key="frame" x="8" y="177" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hq7-pl-h7i">
+                                <rect key="frame" x="8" y="327" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musi.png" translatesAutoresizingMaskIntoConstraints="NO" id="zvt-Mc-M5d">
+                                <rect key="frame" x="38" y="346" width="238" height="35"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAA-F2-f9o">
+                                <rect key="frame" x="248" y="311" width="37" height="37"/>
+                                <state key="normal" image="newbut.png"/>
+                                <connections>
+                                    <action selector="Audio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQw-YH-mSj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Video Preview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZE-Kp-dwU">
+                                <rect key="frame" x="8" y="423" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6gx-NO-OZO">
+                                <rect key="frame" x="38" y="206" width="245" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="g7v-Wa-hZO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aHJ-w3-Le9">
+                                <rect key="frame" x="38" y="57" width="245" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="UXG-Cf-36Q"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ga5-j0-3NU" firstAttribute="top" secondItem="zvt-Mc-M5d" secondAttribute="bottom" constant="6" id="47M-5w-ciO"/>
+                            <constraint firstItem="PAA-F2-f9o" firstAttribute="bottom" secondItem="Hq7-pl-h7i" secondAttribute="bottom" id="6yR-os-oYG"/>
+                            <constraint firstItem="Hq7-pl-h7i" firstAttribute="leading" secondItem="KZE-Kp-dwU" secondAttribute="leading" id="Dzh-bb-zsF"/>
+                            <constraint firstItem="IWS-2s-LXg" firstAttribute="top" secondItem="aHJ-w3-Le9" secondAttribute="bottom" constant="6" id="GUh-F8-W4G"/>
+                            <constraint firstItem="aHJ-w3-Le9" firstAttribute="top" secondItem="ZzG-Vi-xW7" secondAttribute="bottom" constant="8" symbolic="YES" id="GkC-6r-9EG"/>
+                            <constraint firstItem="ZzG-Vi-xW7" firstAttribute="leading" secondItem="60e-bn-2dN" secondAttribute="leading" id="HOa-L3-qYD"/>
+                            <constraint firstItem="6gx-NO-OZO" firstAttribute="trailing" secondItem="aHJ-w3-Le9" secondAttribute="trailing" id="KYS-mS-qux"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JHJ-PN-Q6f" secondAttribute="trailing" constant="19" id="MUH-u0-mGR"/>
+                            <constraint firstItem="IWS-2s-LXg" firstAttribute="leading" secondItem="PAA-F2-f9o" secondAttribute="leading" id="NDX-7d-2A6"/>
+                            <constraint firstItem="aHJ-w3-Le9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nyr-Ri-4hG"/>
+                            <constraint firstItem="IWS-2s-LXg" firstAttribute="leading" secondItem="JHJ-PN-Q6f" secondAttribute="leading" id="Ot6-gW-UQ6"/>
+                            <constraint firstItem="6gx-NO-OZO" firstAttribute="top" secondItem="60e-bn-2dN" secondAttribute="bottom" constant="8" symbolic="YES" id="PEB-pd-xWu"/>
+                            <constraint firstItem="Hq7-pl-h7i" firstAttribute="top" secondItem="6gx-NO-OZO" secondAttribute="bottom" constant="15" id="S8j-P2-0Y8"/>
+                            <constraint firstItem="ga5-j0-3NU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Sav-Zt-SAA"/>
+                            <constraint firstItem="ga5-j0-3NU" firstAttribute="top" secondItem="Hq7-pl-h7i" secondAttribute="bottom" constant="39" id="VBA-Y1-K9h"/>
+                            <constraint firstItem="IWS-2s-LXg" firstAttribute="centerY" secondItem="60e-bn-2dN" secondAttribute="centerY" id="YUI-Bd-QMv"/>
+                            <constraint firstItem="ZzG-Vi-xW7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="bi8-Ye-dCD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ga5-j0-3NU" secondAttribute="trailing" constant="26" id="gW9-0j-9IL"/>
+                            <constraint firstItem="aHJ-w3-Le9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="hL6-Sq-tJo"/>
+                            <constraint firstItem="JHJ-PN-Q6f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="2" id="jY4-6u-ysI"/>
+                            <constraint firstItem="6gx-NO-OZO" firstAttribute="leading" secondItem="zvt-Mc-M5d" secondAttribute="leading" id="lu3-vD-EVa"/>
+                            <constraint firstItem="KZE-Kp-dwU" firstAttribute="top" secondItem="ga5-j0-3NU" secondAttribute="bottom" constant="6" id="oH7-Yc-xrt"/>
+                            <constraint firstItem="zvt-Mc-M5d" firstAttribute="top" secondItem="6gx-NO-OZO" secondAttribute="bottom" constant="34" id="rct-B1-vhU"/>
+                            <constraint firstItem="ZzG-Vi-xW7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="u2m-aM-s2d"/>
+                            <constraint firstItem="6gx-NO-OZO" firstAttribute="leading" secondItem="aHJ-w3-Le9" secondAttribute="leading" id="wBw-Ux-Lve"/>
+                            <constraint firstItem="60e-bn-2dN" firstAttribute="leading" secondItem="Hq7-pl-h7i" secondAttribute="leading" id="wul-B7-9dT"/>
+                            <constraint firstItem="ga5-j0-3NU" firstAttribute="centerX" secondItem="zvt-Mc-M5d" secondAttribute="centerX" id="xBi-Dc-uWF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="musicImg" destination="zvt-Mc-M5d" id="sul-DD-dOK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1640" y="-306"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="musi.png" width="220" height="22"/>
+        <image name="newbut.png" width="37" height="37"/>
+    </resources>
 </document>
